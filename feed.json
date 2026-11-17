@@ -1,0 +1,32 @@
+{
+  "incidents": [
+    {
+      "id": "INC-4823",
+      "service": "notifications",
+      "summary": "Reminder emails show appointment times from before the last reschedule",
+      "status": "open",
+      "openedAt": "2026-11-16T02:14:00.000Z"
+    },
+    {
+      "id": "INC-4822",
+      "service": "booking-api",
+      "summary": "Bookings made after 02:00 missing from provider calendars",
+      "status": "open",
+      "openedAt": "2026-11-16T02:06:00.000Z"
+    },
+    {
+      "id": "INC-4821",
+      "service": "calendar-sync",
+      "summary": "Sync worker stalled: calendar push-channel renewals failing since 02:00",
+      "status": "open",
+      "openedAt": "2026-11-16T02:01:00.000Z"
+    },
+    {
+      "id": "INC-4817",
+      "service": "payments",
+      "summary": "Deposit webhooks delayed up to 9 minutes",
+      "status": "resolved",
+      "openedAt": "2026-11-15T18:40:00.000Z"
+    }
+  ]
+}
